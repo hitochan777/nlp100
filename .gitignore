@@ -1,0 +1,11 @@
+# python chache
+__pycache__
+
+# temp files
+*~
+*.swp
+*.swo
+
+# data files
+*.txt
+*.json
