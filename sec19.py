@@ -7,7 +7,7 @@ with open("hightemp.txt","r") as fin:
         name = line.split()[0]
         freq[name] += 1
 
-ans = sorted(freq.items(),key=lambda (k,v):(v,k),reverse=True)
+ans = sorted(freq.items(),key=lambda t:(t[1],t[0]),reverse=True)
 
 with open("output","w") as fout:
     for li in ans:
